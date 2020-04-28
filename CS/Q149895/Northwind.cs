@@ -58,9 +58,11 @@ namespace Northwind {
         }
     }
 
+    [Persistent("Category")]
     public class Categories : Base {
         int fCategoryID;
         [Key(true)]
+        [Persistent("Id")]
         public int CategoryID {
             get { return fCategoryID; }
             set { SetPropertyValue<int>("CategoryID", ref fCategoryID, value); }

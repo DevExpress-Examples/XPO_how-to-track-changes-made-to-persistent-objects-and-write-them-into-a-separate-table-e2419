@@ -16,7 +16,7 @@ Namespace Q149895
 		Shared Sub Main()
 			Application.EnableVisualStyles()
 			Application.SetCompatibleTextRenderingDefault(False)
-			XpoDefault.ConnectionString = AccessConnectionProvider.GetConnectionString("..\..\nwind.mdb")
+			XpoDefault.ConnectionString = SQLiteConnectionProvider.GetConnectionString("nwind.sqlite")
 			Application.Run(New Form1())
 		End Sub
 	End Class

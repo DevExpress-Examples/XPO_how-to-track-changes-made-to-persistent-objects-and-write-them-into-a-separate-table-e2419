@@ -13,7 +13,7 @@ namespace Q149895 {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            XpoDefault.ConnectionString = AccessConnectionProvider.GetConnectionString(@"..\..\nwind.mdb");
+            XpoDefault.ConnectionString = SQLiteConnectionProvider.GetConnectionString(@"nwind.sqlite");
             Application.Run(new Form1());
         }
     }

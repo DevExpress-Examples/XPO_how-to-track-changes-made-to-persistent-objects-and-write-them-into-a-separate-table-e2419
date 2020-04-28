@@ -3,9 +3,10 @@ Imports System
 Imports DevExpress.Xpo
 Imports DevExpress.Xpo.Metadata
 Imports System.Collections.Generic
+Imports System.Data.Common
 
 Namespace Northwind
-	<NonPersistent> _
+	<NonPersistent>
 	Public Class Base
 		Inherits XPLiteObject
 		Public Sub New(ByVal session As Session)
@@ -65,10 +66,12 @@ Namespace Northwind
 		End Structure
 	End Class
 
+	<Persistent("Category")>
 	Public Class Categories
 		Inherits Base
 		Private fCategoryID As Integer
-		<Key(True)> _
+		<Key(True)>
+		<Persistent("Id")>
 		Public Property CategoryID() As Integer
 			Get
 				Return fCategoryID
