@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Q149895", "Q149895\Q149895.vbproj", "{314A2A11-BA02-47AB-A06E-68053B2F6B24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Q149895_NetCore", "Q149895_NetCore\Q149895_NetCore.vbproj", "{FDF59A24-48C2-449A-8778-C208A81759F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{314A2A11-BA02-47AB-A06E-68053B2F6B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314A2A11-BA02-47AB-A06E-68053B2F6B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314A2A11-BA02-47AB-A06E-68053B2F6B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314A2A11-BA02-47AB-A06E-68053B2F6B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF59A24-48C2-449A-8778-C208A81759F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF59A24-48C2-449A-8778-C208A81759F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF59A24-48C2-449A-8778-C208A81759F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF59A24-48C2-449A-8778-C208A81759F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10988534-3FDF-428B-BC09-C9B81269B27D}
+	EndGlobalSection
+EndGlobal
